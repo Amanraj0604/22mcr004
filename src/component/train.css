@@ -1,0 +1,84 @@
+.head h1{
+    background: #dd84e5;
+    color: green;
+    text-align: center;
+    height: 110px;
+    padding: 50px;
+
+}
+.train{
+    display: flex;
+    
+}
+.left{
+     flex: 50%;
+     display: flex;
+     
+}
+.but{
+    flex: 50%;
+    margin: 20px;
+     
+}
+.but button{
+    height: 43px;
+    width: 80px;
+    border-radius: 8%;
+    font-weight: bold;
+    color: white;
+    background: rgb(240, 74, 107);
+}
+.serch{
+    flex: 50%;
+    margin: 20px;
+   
+}
+.serch input{
+    width: 80%;
+    height: 40px;
+    margin-left: 50px;
+    font-weight: bold;
+    background: rgb(244, 106, 134);
+    color: wheat;
+    font-size: larger;
+}
+.right{
+    flex: 50%;
+    height: 50%;
+    background: #070707;
+    padding: 4%;
+    
+}
+.right h3{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(248, 246, 249);
+}
+.right input{
+    margin-left: 40%;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 3px;
+    
+}
+.right h4,h5{
+    color: wheat;
+    margin-left: 40%;
+    height: 10px;
+    width: 300px;
+}
+.next button{
+    height: 43px;
+    width: 100px;
+    border-radius: 8%;
+    font-weight: bold;
+    color: white;
+    background: rgb(39, 114, 24);
+    margin: 20px;
+}
+.container{
+    background: #f46363;
+     border-radius: 5%;
+     transition: all 10s ease;
+}
